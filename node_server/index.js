@@ -14,7 +14,7 @@ const productData = [];
 
 const connectToMongo = async () => {
     try {
-        mongoose.connect("mongodb+srv://satwik:satwik@cluster0.mp316as.mongodb.net/flutter", {
+        mongoose.connect(MongoDB_Cluster_path, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         });
